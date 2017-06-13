@@ -1,0 +1,17 @@
+
+body {
+  background-color: black !important;
+}
+
+.headingColor {
+  color: aqua;
+  margin: 100px 50px 70px;
+}
+
+.wrapper {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+

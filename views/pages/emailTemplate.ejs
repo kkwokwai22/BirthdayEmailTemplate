@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title><%= title %></title>
+  <style>
+
+  body {
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+
+  .wrapper {
+  	width: 640px;
+  	margin: 0 auto;
+  	background-color: #8A0651;
+  }
+
+  h1 {
+  	color:#000000;
+    padding: 18px;
+  	text-align: center;
+  }
+
+  .birthdayImageWrapper {
+  	max-height: 350px;
+	overflow: hidden;
+  }
+  .birthdayImage {
+  	width: 100%;
+  }
+  
+  p {
+  	text-align: center;
+  	line-height: 1.45em;
+  	font-family: arial;
+  	color: #FFFFFF;
+    font-size: 16px;
+    font-style: italic;
+    background-color: #8A0651;
+    width: 80%;
+    margin: 0 auto;
+  }
+ 
+
+  h2,
+  h3 {
+    color: #000000;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  </style>
+  </head>
+  <body>
+  <div class='wrapper'>
+    <h1 class='feedbackFont'>Happy Birthday From <%= user%>!</h1>
+    <div class='birthdayImageWrapper'> 
+    	<img class='birthdayImage' src=<%= backgroundImage%> alt="background">
+    </div>
+	<h2>Dear: <%= toWho%></h2>
+    <p><%= message%></p>
+    <h2>From: <%= user%></h2>
+	<div>
+    </div>
+    </div>
+  </body>
+</html>
+
+
